@@ -20,9 +20,9 @@ describe('Fizzbuzz returns values for different kinds of numbers', function () {
     assert.equal(result,'fizz');
   });
 
-  it('should return the word "buzz" if number is divisible by five ', function () {
-    let result = fizz(5);
-    assert.equal(result,'buzz');
+  it('should return the word "fizzBuzz" if number is divisible by both ', function () {
+    let result = fizz(15);
+    assert.equal(result,'fizzBuzz');
 
    });
 
