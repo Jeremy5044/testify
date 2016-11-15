@@ -6,11 +6,9 @@ class GildedRose {
   }
 
   tick () {
-    if (this.name.includes("Conjured")) {
-      this.quality = this.quality - 2;
         
 
-    } else {
+
 
       if (this.name != 'Aged Brie' && this.name != 'Backstage passes to a TAFKAL80ETC concert') {
         if (this.quality > 0) {
@@ -57,6 +55,6 @@ class GildedRose {
       }
     }
   }
-}
+
 
 export { GildedRose };
